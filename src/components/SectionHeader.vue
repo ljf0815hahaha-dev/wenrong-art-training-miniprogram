@@ -1,0 +1,3 @@
+<template><view class="section"><view><i></i><text>{{title}}</text></view><b v-if="more" @click="$emit('more')">{{more}} ›</b></view></template>
+<script setup>defineProps({title:String,more:String});defineEmits(['more'])</script>
+<style scoped>.section{display:flex;align-items:center;justify-content:space-between;margin:30rpx 0 16rpx}.section>view{display:flex;align-items:center;gap:11rpx}.section i{width:7rpx;height:31rpx;border-radius:7rpx;background:linear-gradient(#2463ee,#00288e);box-shadow:0 3rpx 7rpx rgba(30,64,175,.2)}.section text{font-size:29rpx;font-weight:800;color:#0f172a;letter-spacing:-.4rpx}.section>b{font-size:20rpx;font-weight:500;color:#64748b}</style>

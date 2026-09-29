@@ -1,0 +1,19 @@
+node_modules/
+dist/
+unpackage/
+
+# Local environment configuration; commit only sanitized examples.
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# WeChat DevTools machine-specific settings.
+project.private.config.json
+
+# Logs and OS/editor files.
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

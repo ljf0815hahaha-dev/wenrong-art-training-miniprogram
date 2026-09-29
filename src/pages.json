@@ -1,0 +1,32 @@
+{
+  "pages": [
+    { "path": "pages/home/index", "style": { "navigationStyle": "custom", "enablePullDownRefresh": true } },
+    { "path": "pages/index/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/course/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/course/detail", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/learn/player", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/profile/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/notice/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/study/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/mall/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/cart/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/order/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/mine/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/login/index", "style": { "navigationStyle": "custom" } }
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#444653",
+    "selectedColor": "#1E40AF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/home/index", "text": "首页" },
+      { "pagePath": "pages/course/index", "text": "课程" },
+      { "pagePath": "pages/study/index", "text": "学习" },
+      { "pagePath": "pages/mall/index", "text": "商城" },
+      { "pagePath": "pages/mine/index", "text": "我的" }
+    ]
+  },
+  "globalStyle": { "navigationStyle": "custom", "backgroundColor": "#FAF8FF", "navigationBarTextStyle": "black" }
+}
